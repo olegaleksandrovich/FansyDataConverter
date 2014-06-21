@@ -21,6 +21,7 @@
 		EC74F4771955A06900B0E048 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC74F4591955A06900B0E048 /* UIKit.framework */; };
 		EC74F47F1955A06900B0E048 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC74F47D1955A06900B0E048 /* InfoPlist.strings */; };
 		EC74F4811955A06900B0E048 /* FansyDataConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC74F4801955A06900B0E048 /* FansyDataConverterTests.m */; };
+		EC74F48C1955A5A000B0E048 /* TSTPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = EC74F48B1955A5A000B0E048 /* TSTPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		EC74F47C1955A06900B0E048 /* FansyDataConverterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FansyDataConverterTests-Info.plist"; sourceTree = "<group>"; };
 		EC74F47E1955A06900B0E048 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EC74F4801955A06900B0E048 /* FansyDataConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FansyDataConverterTests.m; sourceTree = "<group>"; };
+		EC74F48A1955A5A000B0E048 /* TSTPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTPerson.h; sourceTree = "<group>"; };
+		EC74F48B1955A5A000B0E048 /* TSTPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +115,13 @@
 		EC74F45B1955A06900B0E048 /* FansyDataConverter */ = {
 			isa = PBXGroup;
 			children = (
+				EC74F48A1955A5A000B0E048 /* TSTPerson.h */,
+				EC74F48B1955A5A000B0E048 /* TSTPerson.m */,
 				EC74F4641955A06900B0E048 /* FDCAppDelegate.h */,
 				EC74F4651955A06900B0E048 /* FDCAppDelegate.m */,
-				EC74F4671955A06900B0E048 /* Main.storyboard */,
 				EC74F46A1955A06900B0E048 /* FDCViewController.h */,
 				EC74F46B1955A06900B0E048 /* FDCViewController.m */,
+				EC74F4671955A06900B0E048 /* Main.storyboard */,
 				EC74F46D1955A06900B0E048 /* Images.xcassets */,
 				EC74F45C1955A06900B0E048 /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC74F48C1955A5A000B0E048 /* TSTPerson.m in Sources */,
 				EC74F4661955A06900B0E048 /* FDCAppDelegate.m in Sources */,
 				EC74F4621955A06900B0E048 /* main.m in Sources */,
 				EC74F46C1955A06900B0E048 /* FDCViewController.m in Sources */,
@@ -461,6 +467,7 @@
 				EC74F4861955A06900B0E048 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC74F4871955A06900B0E048 /* Build configuration list for PBXNativeTarget "FansyDataConverterTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +476,7 @@
 				EC74F4891955A06900B0E048 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
