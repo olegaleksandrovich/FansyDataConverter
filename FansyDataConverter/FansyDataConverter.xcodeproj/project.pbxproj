@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC74F4561955A06900B0E048 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC74F4551955A06900B0E048 /* Foundation.framework */; };
+		EC74F4581955A06900B0E048 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC74F4571955A06900B0E048 /* CoreGraphics.framework */; };
+		EC74F45A1955A06900B0E048 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC74F4591955A06900B0E048 /* UIKit.framework */; };
+		EC74F4601955A06900B0E048 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC74F45E1955A06900B0E048 /* InfoPlist.strings */; };
+		EC74F4621955A06900B0E048 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC74F4611955A06900B0E048 /* main.m */; };
+		EC74F4661955A06900B0E048 /* FDCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC74F4651955A06900B0E048 /* FDCAppDelegate.m */; };
+		EC74F4691955A06900B0E048 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC74F4671955A06900B0E048 /* Main.storyboard */; };
+		EC74F46C1955A06900B0E048 /* FDCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC74F46B1955A06900B0E048 /* FDCViewController.m */; };
+		EC74F46E1955A06900B0E048 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC74F46D1955A06900B0E048 /* Images.xcassets */; };
+		EC74F4751955A06900B0E048 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC74F4741955A06900B0E048 /* XCTest.framework */; };
+		EC74F4761955A06900B0E048 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC74F4551955A06900B0E048 /* Foundation.framework */; };
+		EC74F4771955A06900B0E048 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC74F4591955A06900B0E048 /* UIKit.framework */; };
+		EC74F47F1955A06900B0E048 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC74F47D1955A06900B0E048 /* InfoPlist.strings */; };
+		EC74F4811955A06900B0E048 /* FansyDataConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC74F4801955A06900B0E048 /* FansyDataConverterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC74F4781955A06900B0E048 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC74F44A1955A06900B0E048 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC74F4511955A06900B0E048;
+			remoteInfo = FansyDataConverter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC74F4521955A06900B0E048 /* FansyDataConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FansyDataConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC74F4551955A06900B0E048 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EC74F4571955A06900B0E048 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EC74F4591955A06900B0E048 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EC74F45D1955A06900B0E048 /* FansyDataConverter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FansyDataConverter-Info.plist"; sourceTree = "<group>"; };
+		EC74F45F1955A06900B0E048 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC74F4611955A06900B0E048 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC74F4631955A06900B0E048 /* FansyDataConverter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FansyDataConverter-Prefix.pch"; sourceTree = "<group>"; };
+		EC74F4641955A06900B0E048 /* FDCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDCAppDelegate.h; sourceTree = "<group>"; };
+		EC74F4651955A06900B0E048 /* FDCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDCAppDelegate.m; sourceTree = "<group>"; };
+		EC74F4681955A06900B0E048 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC74F46A1955A06900B0E048 /* FDCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDCViewController.h; sourceTree = "<group>"; };
+		EC74F46B1955A06900B0E048 /* FDCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDCViewController.m; sourceTree = "<group>"; };
+		EC74F46D1955A06900B0E048 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC74F4731955A06900B0E048 /* FansyDataConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FansyDataConverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC74F4741955A06900B0E048 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EC74F47C1955A06900B0E048 /* FansyDataConverterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FansyDataConverterTests-Info.plist"; sourceTree = "<group>"; };
+		EC74F47E1955A06900B0E048 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC74F4801955A06900B0E048 /* FansyDataConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FansyDataConverterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC74F44F1955A06900B0E048 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC74F4581955A06900B0E048 /* CoreGraphics.framework in Frameworks */,
+				EC74F45A1955A06900B0E048 /* UIKit.framework in Frameworks */,
+				EC74F4561955A06900B0E048 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC74F4701955A06900B0E048 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC74F4751955A06900B0E048 /* XCTest.framework in Frameworks */,
+				EC74F4771955A06900B0E048 /* UIKit.framework in Frameworks */,
+				EC74F4761955A06900B0E048 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC74F4491955A06900B0E048 = {
+			isa = PBXGroup;
+			children = (
+				EC74F45B1955A06900B0E048 /* FansyDataConverter */,
+				EC74F47A1955A06900B0E048 /* FansyDataConverterTests */,
+				EC74F4541955A06900B0E048 /* Frameworks */,
+				EC74F4531955A06900B0E048 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC74F4531955A06900B0E048 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC74F4521955A06900B0E048 /* FansyDataConverter.app */,
+				EC74F4731955A06900B0E048 /* FansyDataConverterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC74F4541955A06900B0E048 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC74F4551955A06900B0E048 /* Foundation.framework */,
+				EC74F4571955A06900B0E048 /* CoreGraphics.framework */,
+				EC74F4591955A06900B0E048 /* UIKit.framework */,
+				EC74F4741955A06900B0E048 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC74F45B1955A06900B0E048 /* FansyDataConverter */ = {
+			isa = PBXGroup;
+			children = (
+				EC74F4641955A06900B0E048 /* FDCAppDelegate.h */,
+				EC74F4651955A06900B0E048 /* FDCAppDelegate.m */,
+				EC74F4671955A06900B0E048 /* Main.storyboard */,
+				EC74F46A1955A06900B0E048 /* FDCViewController.h */,
+				EC74F46B1955A06900B0E048 /* FDCViewController.m */,
+				EC74F46D1955A06900B0E048 /* Images.xcassets */,
+				EC74F45C1955A06900B0E048 /* Supporting Files */,
+			);
+			path = FansyDataConverter;
+			sourceTree = "<group>";
+		};
+		EC74F45C1955A06900B0E048 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC74F45D1955A06900B0E048 /* FansyDataConverter-Info.plist */,
+				EC74F45E1955A06900B0E048 /* InfoPlist.strings */,
+				EC74F4611955A06900B0E048 /* main.m */,
+				EC74F4631955A06900B0E048 /* FansyDataConverter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC74F47A1955A06900B0E048 /* FansyDataConverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC74F4801955A06900B0E048 /* FansyDataConverterTests.m */,
+				EC74F47B1955A06900B0E048 /* Supporting Files */,
+			);
+			path = FansyDataConverterTests;
+			sourceTree = "<group>";
+		};
+		EC74F47B1955A06900B0E048 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC74F47C1955A06900B0E048 /* FansyDataConverterTests-Info.plist */,
+				EC74F47D1955A06900B0E048 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC74F4511955A06900B0E048 /* FansyDataConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC74F4841955A06900B0E048 /* Build configuration list for PBXNativeTarget "FansyDataConverter" */;
+			buildPhases = (
+				EC74F44E1955A06900B0E048 /* Sources */,
+				EC74F44F1955A06900B0E048 /* Frameworks */,
+				EC74F4501955A06900B0E048 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FansyDataConverter;
+			productName = FansyDataConverter;
+			productReference = EC74F4521955A06900B0E048 /* FansyDataConverter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC74F4721955A06900B0E048 /* FansyDataConverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC74F4871955A06900B0E048 /* Build configuration list for PBXNativeTarget "FansyDataConverterTests" */;
+			buildPhases = (
+				EC74F46F1955A06900B0E048 /* Sources */,
+				EC74F4701955A06900B0E048 /* Frameworks */,
+				EC74F4711955A06900B0E048 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC74F4791955A06900B0E048 /* PBXTargetDependency */,
+			);
+			name = FansyDataConverterTests;
+			productName = FansyDataConverterTests;
+			productReference = EC74F4731955A06900B0E048 /* FansyDataConverterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC74F44A1955A06900B0E048 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FDC;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Intern;
+				TargetAttributes = {
+					EC74F4721955A06900B0E048 = {
+						TestTargetID = EC74F4511955A06900B0E048;
+					};
+				};
+			};
+			buildConfigurationList = EC74F44D1955A06900B0E048 /* Build configuration list for PBXProject "FansyDataConverter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC74F4491955A06900B0E048;
+			productRefGroup = EC74F4531955A06900B0E048 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC74F4511955A06900B0E048 /* FansyDataConverter */,
+				EC74F4721955A06900B0E048 /* FansyDataConverterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC74F4501955A06900B0E048 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC74F46E1955A06900B0E048 /* Images.xcassets in Resources */,
+				EC74F4601955A06900B0E048 /* InfoPlist.strings in Resources */,
+				EC74F4691955A06900B0E048 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC74F4711955A06900B0E048 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC74F47F1955A06900B0E048 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC74F44E1955A06900B0E048 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC74F4661955A06900B0E048 /* FDCAppDelegate.m in Sources */,
+				EC74F4621955A06900B0E048 /* main.m in Sources */,
+				EC74F46C1955A06900B0E048 /* FDCViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC74F46F1955A06900B0E048 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC74F4811955A06900B0E048 /* FansyDataConverterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC74F4791955A06900B0E048 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC74F4511955A06900B0E048 /* FansyDataConverter */;
+			targetProxy = EC74F4781955A06900B0E048 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC74F45E1955A06900B0E048 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC74F45F1955A06900B0E048 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EC74F4671955A06900B0E048 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC74F4681955A06900B0E048 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC74F47D1955A06900B0E048 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC74F47E1955A06900B0E048 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC74F4821955A06900B0E048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC74F4831955A06900B0E048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC74F4851955A06900B0E048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FansyDataConverter/FansyDataConverter-Prefix.pch";
+				INFOPLIST_FILE = "FansyDataConverter/FansyDataConverter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EC74F4861955A06900B0E048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FansyDataConverter/FansyDataConverter-Prefix.pch";
+				INFOPLIST_FILE = "FansyDataConverter/FansyDataConverter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EC74F4881955A06900B0E048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FansyDataConverter.app/FansyDataConverter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FansyDataConverter/FansyDataConverter-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FansyDataConverterTests/FansyDataConverterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EC74F4891955A06900B0E048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FansyDataConverter.app/FansyDataConverter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FansyDataConverter/FansyDataConverter-Prefix.pch";
+				INFOPLIST_FILE = "FansyDataConverterTests/FansyDataConverterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC74F44D1955A06900B0E048 /* Build configuration list for PBXProject "FansyDataConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC74F4821955A06900B0E048 /* Debug */,
+				EC74F4831955A06900B0E048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC74F4841955A06900B0E048 /* Build configuration list for PBXNativeTarget "FansyDataConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC74F4851955A06900B0E048 /* Debug */,
+				EC74F4861955A06900B0E048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC74F4871955A06900B0E048 /* Build configuration list for PBXNativeTarget "FansyDataConverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC74F4881955A06900B0E048 /* Debug */,
+				EC74F4891955A06900B0E048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC74F44A1955A06900B0E048 /* Project object */;
+}
